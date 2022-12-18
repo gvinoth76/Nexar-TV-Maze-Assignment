@@ -1,4 +1,4 @@
-Here i am assignment of Nexer - TV Maze app
+Assignment of Nexer - TV Maze app
 
 Requirements
 
