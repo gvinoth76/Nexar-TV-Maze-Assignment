@@ -89,10 +89,14 @@ export class Details extends Component {
                                         <label>Genres: </label>
                                         <ul>
                                             { showDetails && showDetails.genres.map(
-                                                (item, index) =>
+                                                (item, index) => index === 0 ?
                                                 <>
                                                     <li>{item}</li>
+                                                </>
+                                                :
+                                                <>
                                                     <li>|</li>
+                                                    <li>{item}</li>
                                                 </>
                                             )
                                             }
